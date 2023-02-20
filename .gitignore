@@ -7,6 +7,5 @@ venv
 instance
 app.db
 package.json
-messages.pot
 *.mo
 package.json
