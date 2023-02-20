@@ -33,3 +33,12 @@ Subject: $Mail Subject
 Content: $Mail Content
 ctrl d
 ```
+
+* Deployment
+```
+git pull
+sudo supervisorctl stop task
+flask db upgrade 
+flask translate compile
+sudo supervisorctl start flask
+```
